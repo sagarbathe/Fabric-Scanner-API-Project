@@ -1,5 +1,7 @@
 # Fabric-Scanner-API-Project
 
+Currently, there is no way in Fabric to show which artifacts are shared with which users, groups or Apps. The objective of this project capture this information via the Fabric Scanner APIs and use Power BI to visualize this information
+
 This repo will consist of a notebook and Power BI report sample. The notebook captures metadata about accesses/grant for fabric artifacts and stores into a lakehouse delta table. Power BI report is created on the delta table
 
 Steps:
