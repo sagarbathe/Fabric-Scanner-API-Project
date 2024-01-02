@@ -1,4 +1,4 @@
-# Fabric-Scanner-API-Project
+# Fabric-Scanner-API-Project to capture Fabric artifact permissions and accesses
 
 Currently, there is no way in Fabric to show which artifacts are shared with which users, groups or Apps. The objective of this project capture this information via the Fabric Scanner APIs and use Power BI to visualize this information
 
