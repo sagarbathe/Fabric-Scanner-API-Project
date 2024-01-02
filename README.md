@@ -7,7 +7,7 @@ This repo will consist of a notebook and Power BI report sample. The notebook ca
 Steps:
 1. Import the notebook 'Scanner API demo.ipynb' in the workspace of your choice. Follow all the instructions in the notebook. After successful completion of the notebook, a delta table called 'WorkspaceAccessMetadata' will be created in the lakehouse you had selected in the notebook
 2. Create a custom semantic model (dataset) called 'WorkspaceAccessesMetadata' in the lakehouse you had selected in the notebook. Include the table 'WorkspaceAccessMetadata' in the semantic model
-3. Import the Power BI 'Fabric Artifacts Access Metadata Report' in Power BI desktop. Ensure you are logged in as same user as Fabric. It should prompt you to select semantic model (dataset). Select the one created in the above step. Save and publish the report to the workspace you saved the notebook and semantic model. Now you should be able to open the report in Fabric and use it
+3. Import the Power BI 'Fabric Artifacts Access Metadata Report' in Power BI desktop. Ensure you are logged in as same user as Fabric. You should see a pop-up that report is not able to find the dataset. Click on Edit and select semantic model (dataset) created in the previous step. Save and publish the report in the workspace you saved the notebook and semantic model earlier. Now you should be able to open the report in Fabric and use it
 
 Future Enhancements planned:
 1. Divide list of workspace ids in chunks of 100 workspaces and execute each chunk
