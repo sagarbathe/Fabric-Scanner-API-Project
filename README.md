@@ -2,7 +2,6 @@
 
 Update 2023/03/04:
 1. Added Last Refresh Date to the report to indicate when the data was last updated
-2. Created a data pipeline which executes the notebook every morning at 8am
 
 Currently, there is no way in Fabric to show which artifacts are shared with which users, groups or Apps. The objective of this project capture this information via the Fabric Scanner APIs and use Power BI to visualize this information
 
